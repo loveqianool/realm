@@ -5,4 +5,4 @@ tar -xzf /tmp/realm.tar.gz && \
 mv realm /usr/local/bin/realm && \
 chmod +x /usr/local/bin/realm
 
-ENTRYPOINT ["/usr/bin/realm"]
+ENTRYPOINT ["/usr/local/bin/realm"]
